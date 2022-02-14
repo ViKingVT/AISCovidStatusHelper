@@ -1,0 +1,67 @@
+html, body {
+  width: auto;
+  background-color: #F0ECEA;
+  color: rgb(98, 59, 42);
+}
+
+.hidden {
+  display: none;
+}
+
+.btn:hover {
+  border: 1px solid #FC2B26;
+  background: #ea4d2c; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f9dcd7 0%, #f18e79 25%, #ea4d2c 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ea4d2c), color-stop(25%,#f18e79), color-stop(100%,#ea4d2c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f9dcd7 0%,#f18e79 25%,#ea4d2c 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f9dcd7 0%,#f18e79 25%,#ea4d2c 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f9dcd7 0%,#f18e79 25%,#ea4d2c 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f9dcd7 0%,#f18e79 25%,#ea4d2c 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9dcd7', endColorstr='#ea4d2c',GradientType=0 ); /* IE6-9 */
+  color : rgb(244, 242, 241);
+  text-decoration: none;
+}
+
+.btn {
+  border: 1px solid #816255;
+  background: #e0d8d4; /* Old browsers */
+  background: -moz-linear-gradient(top,  #e0d8d4 0%, #aa958c 25%, #816255 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0d8d4), color-stop(25%,#aa958c), color-stop(100%,#816255)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #e0d8d4 0%,#aa958c 25%,#816255 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #e0d8d4 0%,#aa958c 25%,#816255 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #e0d8d4 0%,#aa958c 25%,#816255 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #e0d8d4 0%,#aa958c 25%,#816255 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0d8d4', endColorstr='#816255',GradientType=0 ); /* IE6-9 */
+
+  font-family: PT Sans Narrow bold;
+  font-size: 20pt;
+  width: 120px;
+  color: white;
+}
+
+.rendered-form {
+  width: 100%;
+}
+
+.formbuilder-text-label {
+  margin: 3% auto;
+  padding: 4px;
+  font-size: 1.5em;
+}
+
+div {
+  width: auto;
+}
+
+input {
+  margin: 3% auto;
+  padding: 4px;
+  size: 20%;
+  font-size: 15pt;
+  color: rgb(98, 59, 42);
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #719ECE !important;
+}

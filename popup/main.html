@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+
+<body>
+  <div id="content" class="rendered-form">
+    <div class="formbuilder-text form-group field-idf">
+        <label for="idf" class="formbuilder-text-label">Номер учетной карточки</label>
+        <input type="text" placeholder="000000" class="form-control" name="idf" access="false" maxlength="6" id="idf" required>
+    </div>
+    <div class="formbuilder-button form-group field-findbutton">
+        <button type="button" class="btn-default btn" name="findbutton" access="false" id="findbutton">Найти</button>
+    </div>
+    <div id="error-content"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
